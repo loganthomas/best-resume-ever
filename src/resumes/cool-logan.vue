@@ -150,7 +150,7 @@
           v-if="person.contributions"
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
+            <i class="section-headline__icon material-icons">code</i>{{lang.contributions}}
           </div>
 
           <div class="section-content-grid">
@@ -173,7 +173,7 @@
           v-if="person.projects"
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
+            <i class="section-headline__icon fa fa-heart"></i>{{ lang.projects }}
           </div>
 
           <div class="section-content-grid">
