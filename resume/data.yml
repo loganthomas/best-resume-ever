@@ -73,18 +73,26 @@ projects:
   url: https://github.com/salomonelli/best-resume-ever
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name:
+  iconClass:
+  url:
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name:
+  iconClass:
+  url:
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: pyjanitor
+  description: Pythonic API for elligant data cleaning and method chaining rountines on pandas DataFrames.
+  url: https://github.com/ericmjl/pyjanitor
+
+- name: deap
+  description: Distributed Evolutionary Algorithms in Python.
+  url: https://github.com/DEAP/deap
+
+- name: pint
+  description: Python package to define, operate and manipultae physical quantities - the product of a numerical value and a unit of measure.
+  url: https://github.com/hgrecco/pint
 
 contact:
   email: logan.thomas005@gmail.com
