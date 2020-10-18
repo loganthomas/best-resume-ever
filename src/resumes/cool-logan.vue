@@ -16,7 +16,13 @@
           </div>
 
           <div class="section-content section-content--plain">
-            {{ person.about }}
+            <!-- {{ person.about }} -->
+            <!-- Handle person.about here rather than data.yml for better emphasis and line breaks -->
+            I'm a highly motivated and naturally curious individual with <b>6 years</b> of experience
+            using <b>data science</b> & <b>machine learning techniques</b>.
+            <br/>
+            <br/>
+            I exhibit an analytical and detail-oriented nature, while placing strong value on building relationships.
             <br/>
             <br/>
             {{ person.knowledge }}
