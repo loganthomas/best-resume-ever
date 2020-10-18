@@ -87,12 +87,13 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: logan.thomas005@gmail.com
+  phone: (321) 961-9107
+  street: 6749 Catania Loop
+  city: Round Rock, TX
+  website:
+  linkedin: logan-thomas
+  github: loganthomas
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

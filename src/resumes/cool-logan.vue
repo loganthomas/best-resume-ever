@@ -55,7 +55,7 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}<br/>{{ person.contact.city }}
             </div>
 
             <a
