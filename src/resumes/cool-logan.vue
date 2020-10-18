@@ -160,11 +160,15 @@
               :key="index"
               :class="{ link: contribution.url !== undefined}"
               :href="contribution.url">
-              <span class="section-content__header"> {{ contribution.name }} </span>
+              <span class="section-content__header"> <i class="section-headline__icon fa fa-github"></i>{{ contribution.name }} </span>
+              <!-- Hide descriptions
               <span class="section-content__text"> {{ contribution.description }} </span>
+              -->
+              <!-- Hide url text, but title will still link...
               <span class="section-content__text--light" style="word-break: break-all;">
                 {{ contribution.url }}
               </span>
+              -->
             </a>
           </div>
         </div>
