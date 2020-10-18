@@ -23,8 +23,6 @@
             <br/>
             <br/>
             I exhibit an analytical and detail-oriented nature, while placing strong value on building relationships.
-            <br/>
-            <br/>
             {{ person.knowledge }}
           </div>
         </div>
