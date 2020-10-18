@@ -147,25 +147,6 @@
         </div>
 
         <div
-          v-if="person.projects"
-          class="section">
-          <div class="section-headline">
-            <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
-          </div>
-
-          <div class="section-content-grid">
-            <a v-for="(project, index) in person.projects" :key="index"
-              class="section-content__item-grid"
-              :class="{ link: project.url !== undefined}"
-              :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
-              <span class="section-content__subheader">{{ project.platform }}</span>
-              <span class="section-content__text"> {{ project.description }} </span>
-            </a>
-          </div>
-        </div>
-
-        <div
           v-if="person.contributions"
           class="section">
           <div class="section-headline">
@@ -187,6 +168,26 @@
             </a>
           </div>
         </div>
+
+        <div
+          v-if="person.projects"
+          class="section">
+          <div class="section-headline">
+            <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
+          </div>
+
+          <div class="section-content-grid">
+            <a v-for="(project, index) in person.projects" :key="index"
+              class="section-content__item-grid"
+              :class="{ link: project.url !== undefined}"
+              :href="project.url">
+              <span class="section-content__header"> {{ project.name }} </span>
+              <span class="section-content__subheader">{{ project.platform }}</span>
+              <span class="section-content__text"> {{ project.description }} </span>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
 
