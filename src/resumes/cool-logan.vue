@@ -3,6 +3,7 @@
     <div class="banner">
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
+      <div class="banner__employer">{{ person.employer }}</div>
       <!-- <div v-if="person.birth" class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div> -->
     </div>
 
@@ -255,6 +256,10 @@ export default Vue.component(name, getVueOptions(name));
   }
 
   &__location {
+    font-size: 12px;
+  }
+
+  &__employer {
     font-size: 12px;
   }
 }
