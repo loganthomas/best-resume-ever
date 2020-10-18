@@ -185,9 +185,13 @@
               class="section-content__item-grid"
               :class="{ link: project.url !== undefined}"
               :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
+              <span class="section-content__header">{{ project.name }} </span>
+              <!-- Hide Platform and use icon instead
               <span class="section-content__subheader">{{ project.platform }}</span>
+              -->
+              <!-- Hide descriptions
               <span class="section-content__text"> {{ project.description }} </span>
+              -->
             </a>
           </div>
         </div>
