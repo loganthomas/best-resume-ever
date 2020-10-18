@@ -1,16 +1,16 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Logan
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Thomas
+about: I'm a highly motivated and naturally curious individual with 6 years of experience
+       using data science & machine learning techniques. I exhibit an analytical and
+       detail-oriented nature, while placing strong value on building relationships.
+position: Senior Associate Data Scientist I
 
 birth:
-  year: 1990
-  location: New York
+  year: 1989
+  location: Mountain View, CA
 
 experience:
 - company: Company A
