@@ -4,6 +4,7 @@
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
       <div class="banner__employer">{{ person.employer }}</div>
+      <div class="banner__employer">{{ person.location }}</div>
       <!-- <div v-if="person.birth" class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div> -->
     </div>
 
