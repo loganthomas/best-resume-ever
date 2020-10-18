@@ -203,7 +203,7 @@ export default Vue.component(name, getVueOptions(name));
 @accent-color: #34495E;
 @banner-color: #42b883;
 @banner-height: 120px;
-@picture-size: 120px;
+@picture-size: 130px;
 @picture-offset: 35px;
 @base-padding: 30px;
 @left-column-width: 240px;
@@ -226,8 +226,10 @@ export default Vue.component(name, getVueOptions(name));
 
 .picture {
   position: absolute;
-  top: @banner-height - @picture-offset;
-  left: @left-column-width + @base-padding * 2 - @picture-size / 2;
+  // top: @banner-height - @picture-offset;
+  // left: @left-column-width + @base-padding * 2 - @picture-size / 2;
+  top: @picture-offset / 2;
+  left: @left-column-width * 2 + @base-padding * 4;
   height: @picture-size;
   width: @picture-size;
   border-radius: 50%;
