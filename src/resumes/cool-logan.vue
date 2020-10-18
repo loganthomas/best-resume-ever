@@ -262,6 +262,7 @@ export default Vue.component(name, getVueOptions(name));
 
   &__employer {
     font-size: 12px;
+    font-style: italic;
   }
 }
 
