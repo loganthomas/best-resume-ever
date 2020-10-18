@@ -66,11 +66,23 @@ skills:
 knowledge:
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: turkey-bowl
+  platform: Python
+  timeperiod: November 2016
+  description: Thanksgiving tradition - Mock NFL fantasy football draft.
+  url: https://github.com/loganthomas/turkey-bowl
+
+- name: repo-scrape
+  platform: Python
+  timeperiod: September 2020
+  description: GitHub metadata scraping (Hacktoberfest).
+  url: https://github.com/loganthomas/repo-scrape
+
+- name: python-practice
+  platform: Python
+  timeperiod: January 2018
+  description: Collection of personal Python notes, challenges, and scripts.
+  url: https://github.com/loganthomas/python-practice
 
 hobbies:
 - name:
