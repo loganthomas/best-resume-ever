@@ -138,10 +138,9 @@
               :class="{ link: education.website !== undefined}"
               :href="education.website">
 
-              <span class="section-content__header"> {{ education.school }} </span>
+              <span class="section-content__header"> {{ education.school }} ({{ education.timeperiod }})</span>
               <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
-              <span class="section-content__text--light"> {{ education.description }} </span>
+              <span class="section-content__text--light"> {{ education.description }}</span>
             </a>
           </div>
         </div>

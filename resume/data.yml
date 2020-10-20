@@ -32,14 +32,17 @@ experience:
   description: Making coffee and baking cookies.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- school: University of Florida
+  degree: Master of Science in Mechanical Engineering
+  timeperiod: 2012 - 2014
+  description: Minor in Statistics
+  website:
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- school: Palm Beach Atlantic University
+  degree: Bachelor of Science in Mathematics
+  timeperiod: 2008 - 2012
+  description: Minor in Biblical Studies; Graduated Summa Cum Laude
+  webstie:
 
 # skill level goes 0 to 100
 skills:
