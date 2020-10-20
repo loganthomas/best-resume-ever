@@ -153,49 +153,31 @@
             <i class="section-headline__icon material-icons">code</i>{{lang.contributions}}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content"><i>Open Source:</i></div>
+          <div class="section-content-grid-contrib">
             <a
               v-for="(contribution, index) in person.contributions"
               class="section-content__item-grid"
               :key="index"
               :class="{ link: contribution.url !== undefined}"
               :href="contribution.url">
-              <span class="section-content__header"> <i class="section-headline__icon fa fa-github"></i>{{ contribution.name }} </span>
-              <!-- Hide descriptions
-              <span class="section-content__text"> {{ contribution.description }} </span>
-              -->
-              <!-- Hide url text, but title will still link...
-              <span class="section-content__text--light" style="word-break: break-all;">
-                {{ contribution.url }}
-              </span>
-              -->
+              <span class="section-content__header"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ contribution.name }} </span>
             </a>
           </div>
-        </div>
 
-        <div
-          v-if="person.projects"
-          class="section">
-          <div class="section-headline">
-            <i class="section-headline__icon fa fa-heart"></i>{{ lang.projects }}
-          </div>
+          <div class="section-content"><hr></div>
 
-          <div class="section-content-grid">
-            <a v-for="(project, index) in person.projects" :key="index"
+          <div class="section-content"><i>Personal:</i></div>
+          <div class="section-content-grid-contrib">
+            <a
+              v-for="(project, index) in person.projects" :key="index"
               class="section-content__item-grid"
               :class="{ link: project.url !== undefined}"
               :href="project.url">
-              <span class="section-content__header">{{ project.name }} </span>
-              <!-- Hide Platform and use icon instead
-              <span class="section-content__subheader">{{ project.platform }}</span>
-              -->
-              <!-- Hide descriptions
-              <span class="section-content__text"> {{ project.description }} </span>
-              -->
+              <span class="section-content__header"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ project.name }} </span>
             </a>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -324,6 +306,11 @@ export default Vue.component(name, getVueOptions(name));
     margin-right: 8px;
     font-size: 1.4em;
   }
+
+  &__contrib_icon {
+    margin-right: 4px;
+    font-size: 1.2em;
+  }
 }
 
 .section-link {
@@ -387,6 +374,14 @@ export default Vue.component(name, getVueOptions(name));
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.section-content-grid-contrib {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 32px;
 }
 
 .grid-item {
