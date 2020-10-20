@@ -355,7 +355,7 @@ export default Vue.component(name, getVueOptions(name));
     font-size: 12px;
 
     &--light {
-      font-size: 4px;
+      font-size: 12px;
     }
   }
 
