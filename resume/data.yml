@@ -15,21 +15,61 @@ birth:
   location: Mountain View, CA
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Security Clearance as of Sept 2020.
-  website: https://example.com
+- company: Protection Engineering Consultants
+  position: Senior Associate Data Scientist I
+  location: Austin, TX
+  timeperiod: Aug 2020 - Present
+  description: Advanced Technology & Research Team
+  tasks:
+    - Developed evolutionary algorithm library for deploying multi-gene genetic programming and symbolic regression
+    - Enhanced computer vision algorithms for autonomous fragment tracking library
+    - Python technical lead and Git evangelist
+    - Security Clearance as of Sept 2020
+  website: https://www.protection-consultants.com/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: DataCamp
+  position: Course Instructor
+  timeperiod: Feb 2019 - Present
+  location: Austin, TX
+  description:
+  tasks:
+    - Created "Writing Efficient Python Code" course
+    - 20k+ students, 4 hours of content, 4.5/5 average course rating
+  website: https://www.datacamp.com/courses/writing-efficient-python-code
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Nielsen
+  position: Lead Data Scientist
+  location: Austin, TX
+  timeperiod: Oct 2018 - Aug 2019
+  description: Machine Learning & Algorithms Team
+  tasks:
+    - Researched and implemented machine learning models
+    - Discovered realationships and deteced anomolies in large datasets
+    - Synthesized disparate datasets to influence decision making
+    # - Advocate for clean code, version control, and unit testing
+
+- company: Nielsen
+  position: Senior Data Scientist
+  location: San Francisco, CA
+  timeperiod: Aug 2016 - Oct 2018
+  description: Digital Product Team
+  tasks:
+    - Launched automated Natural Languate Processing enginge leveraging network analysis, graph theory,
+      and term frequenct-inverse document frequnect methods
+    - Deployed autonomous training pipeline for LSTM deep learning model using Databricks, AWS, Tensorflow, and Keras
+    - Enigneered end-to-end optimization routine utliizing random forest models, k-dimensional trees, and CVXPY
+
+- company: Nielsen
+  position: Data Scientist
+  location: Tampa, FL & San Francisco, CA
+  timeperiod: July 2014 - Aug 2016
+  description: Emerging Leaders Program
+  tasks:
+    - Selected as top talent to participate in prestigious training program
+    # - Rotation 1 - Behavioral Methods Team
+    # - Rotation 2 - Audio Sample Acquisition Team
+    # - Rotation 3 - Technology& Telecommunications Team
+    # - Rotation 4 - Watch Product Enhancement Team
 
 education:
 - school: University of Florida

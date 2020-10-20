@@ -115,12 +115,19 @@
 
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
-                {{ experience.company }}
-                <span class="section-content__plain">{{ experience.location }}</span>
+                <i>
+                  {{ experience.company }}: {{ experience.location }}
+                  <br/>
+                  {{ experience.description}}
+                </i>
               </span>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <span class="section-content__text--light">
+                <ul class="custom_indent">
+                  <li v-for="(task) in experience.tasks">{{ task }}</li>
+                </ul>
+              </span>
             </a>
           </div>
         </div>
@@ -348,7 +355,7 @@ export default Vue.component(name, getVueOptions(name));
     font-size: 12px;
 
     &--light {
-      font-size: 12px;
+      font-size: 4px;
     }
   }
 
@@ -394,4 +401,12 @@ export default Vue.component(name, getVueOptions(name));
   margin-top: 5px;
   padding: 5px;
 }
+
+ul.custom_indent {
+    margin-left: 15px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
 </style>
