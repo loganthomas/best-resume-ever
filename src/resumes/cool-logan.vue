@@ -115,14 +115,11 @@
 
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
-                <i>
-                  {{ experience.company }}: {{ experience.location }}
-                  <br/>
-                  {{ experience.description}}
-                </i>
+                <i>{{ experience.company }}: {{ experience.location }}</i>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
+              <div class="section-content__subheader">{{ experience.description }}</div>
+              <div class="section-content__subheader">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">
                 <ul class="custom_indent">
                   <li v-for="(task) in experience.tasks">{{ task }}</li>
@@ -167,7 +164,7 @@
               :key="index"
               :class="{ link: contribution.url !== undefined}"
               :href="contribution.url">
-              <span class="section-content__header"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ contribution.name }} </span>
+              <span class="contrib-text"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ contribution.name }}</span>
             </a>
           </div>
 
@@ -180,9 +177,10 @@
               class="section-content__item-grid"
               :class="{ link: project.url !== undefined}"
               :href="project.url">
-              <span class="section-content__header"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ project.name }} </span>
+              <span class="contrib-text"><i class="section-headline__contrib_icon fa fa-code-fork"></i>{{ project.name }}</span>
             </a>
           </div>
+
         </div>
       </div>
     </div>
@@ -207,7 +205,7 @@ export default Vue.component(name, getVueOptions(name));
 @picture-size: 130px;
 @picture-offset: 35px;
 @base-padding: 30px;
-@left-column-width: 240px;
+@left-column-width: 200px;
 
 .link {
   color: inherit;
@@ -230,7 +228,7 @@ export default Vue.component(name, getVueOptions(name));
   // top: @banner-height - @picture-offset;
   // left: @left-column-width + @base-padding * 2 - @picture-size / 2;
   top: @picture-offset / 2;
-  left: @left-column-width * 2 + @base-padding * 4;
+  left: @left-column-width * 2 + @base-padding * 7;
   height: @picture-size;
   width: @picture-size;
   border-radius: 50%;
@@ -315,12 +313,14 @@ export default Vue.component(name, getVueOptions(name));
 
   &__contrib_icon {
     margin-right: 4px;
-    font-size: 1.2em;
+    // font-size: 1.2em;
+    font-size: 12px;
   }
 }
 
 .section-link {
-  font-size: 1.1em;
+  // font-size: 1.1em;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.59) !important;
 
   &__icon {
@@ -331,7 +331,7 @@ export default Vue.component(name, getVueOptions(name));
 .section-content {
   margin-top: 5px;
   padding-left: 32px;
-  font-size: 14px;
+  font-size: 12px;
 
   &__item {
     display: block;
@@ -375,6 +375,11 @@ export default Vue.component(name, getVueOptions(name));
   }
 }
 
+.contrib-text {
+  display: block;
+  font-size: 12px;
+}
+
 .section-content-grid {
   display: flex;
   flex-wrap: wrap;
@@ -388,6 +393,8 @@ export default Vue.component(name, getVueOptions(name));
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 32px;
+  flex-direction: row;
+  max-width: 300px;
 }
 
 .grid-item {
@@ -400,6 +407,7 @@ export default Vue.component(name, getVueOptions(name));
   color: white;
   margin-top: 5px;
   padding: 5px;
+  font-size: 12px;
 }
 
 ul.custom_indent {
