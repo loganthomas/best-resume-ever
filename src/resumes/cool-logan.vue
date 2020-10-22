@@ -48,6 +48,21 @@
           </div>
         </div>
 
+        <div
+          v-if="person.awards"
+          class="section">
+          <div class="section-headline">
+            Awards
+          </div>
+
+          <div class="section-content section-content--plain">
+            <a v-for="(award, index) in person.awards" class="grid-item">
+              <span>{{ award.name }}<br/></span>
+              <span>{{ award.org }} | {{ award.timeperiod }}<br/><br/></span>
+            </a>
+          </div>
+        </div>
+
         <div class="section">
           <div class="section-headline">
             {{ lang.contact }}
@@ -204,7 +219,7 @@ export default Vue.component(name, getVueOptions(name));
 @picture-size: 130px;
 @picture-offset: 35px;
 @base-padding: 30px;
-@left-column-width: 200px;
+@left-column-width: 210px;
 
 .link {
   color: inherit;

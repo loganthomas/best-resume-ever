@@ -113,6 +113,26 @@ skills:
   level: 100
 knowledge:
 
+awards:
+- name: Essentials Program Selection
+  org: Nielsen
+  timeperiod: 2019
+- name: Data Science Collaby Award
+  org: Nielsen
+  timeperiod: 2017
+- name: Simply Excellent Platinum Award
+  org: Nielsen
+  timeperiod: 2017
+- name: Outstanding Graduate for Mathematics
+  org: Palm Beach Atlantic University
+  timeperiod: 2012
+- name: Outstanding Leadership Award
+  org: Palm Beach Atlantic University
+  timeperiod: 2011
+- name: Don Harp Athletics Leadership Award
+  org: Palm Beach Atlantic University
+  timeperiod: 2011
+
 projects:
 - name: turkey-bowl
   platform: Python
