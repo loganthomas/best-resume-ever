@@ -18,11 +18,11 @@ experience:
 - company: Protection Engineering Consultants
   position: Senior Associate Data Scientist I
   location: Austin, TX
-  timeperiod: Aug 2020 - Present
+  timeperiod: Aug 2019 - Present
   description: Advanced Technology & Research Team
   tasks:
     - Developed evolutionary algorithm library for deploying multi-gene genetic programming and symbolic regression
-    - Enhanced computer vision algorithms for autonomous fragment tracking library
+    - Enhanced computer vision algorithms for autonomous fragment tracking
     - Python technical lead and Git evangelist
     - Security Clearance as of Sept 2020
   website: https://www.protection-consultants.com/
@@ -44,9 +44,9 @@ experience:
   description: Machine Learning & Algorithms Team
   tasks:
     - Researched and implemented machine learning models
-    - Discovered realationships and deteced anomolies in large datasets
+    - Discovered relationships and detected anomalies in large datasets
     - Synthesized disparate datasets to influence decision making
-    # - Advocate for clean code, version control, and unit testing
+    - Advocate for clean code, version control, and unit testing
 
 - company: Nielsen
   position: Senior Data Scientist
@@ -54,22 +54,21 @@ experience:
   timeperiod: Aug 2016 - Oct 2018
   description: Digital Product Team
   tasks:
-    - Launched automated Natural Languate Processing enginge leveraging network analysis, graph theory,
-      and term frequenct-inverse document frequnect methods
-    - Deployed autonomous training pipeline for LSTM deep learning model using Databricks, AWS, Tensorflow, and Keras
-    - Enigneered end-to-end optimization routine utliizing random forest models, k-dimensional trees, and CVXPY
+    - Engineered automated natural language processing engine utilizing network analysis, graph theory, and TF-IDF methods
+    - Deployed autonomous training pipeline for LSTM deep learning model using Databricks, AWS, TensorFlow, and Keras
+    - Created optimization routine leveraging random forests, k-dimensional trees, and CVXPY
 
 - company: Nielsen
   position: Data Scientist
   location: Tampa, FL & San Francisco, CA
   timeperiod: July 2014 - Aug 2016
   description: Emerging Leaders Program
-  tasks:
-    - Selected as top talent to participate in prestigious training program
-    # - Rotation 1 - Behavioral Methods Team
-    # - Rotation 2 - Audio Sample Acquisition Team
-    # - Rotation 3 - Technology& Telecommunications Team
-    # - Rotation 4 - Watch Product Enhancement Team
+  # tasks:
+  #   - Selected as top talent to participate in prestigious training program
+  #   - Rotation 1 - Behavioral Methods Team
+  #   - Rotation 2 - Audio Sample Acquisition Team
+  #   - Rotation 3 - Technology& Telecommunications Team
+  #   - Rotation 4 - Watch Product Enhancement Team
 
 education:
 - school: University of Florida
@@ -138,7 +137,7 @@ hobbies:
 
 contributions:
 - name: pyjanitor
-  description: Pythonic API for elligant data cleaning and method chaining rountines on pandas DataFrames.
+  description: Pythonic API for elegant data cleaning and method chaining routines on pandas DataFrames.
   url: https://github.com/ericmjl/pyjanitor
 
 - name: deap
@@ -146,7 +145,7 @@ contributions:
   url: https://github.com/DEAP/deap
 
 - name: pint
-  description: Python package to define, operate and manipultae physical quantities - the product of a numerical value and a unit of measure.
+  description: Python package to define, operate and manipulate physical quantities - the product of a numerical value and a unit of measure.
   url: https://github.com/hgrecco/pint
 
 contact:
