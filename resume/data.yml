@@ -30,10 +30,10 @@ experience:
 - company: DataCamp
   position: Course Instructor
   timeperiod: Feb 2019 - Present
-  location: Austin, TX
+  location: Remote
   description:
   tasks:
-    - Created "Writing Efficient Python Code" course
+    - Designed, created, and currently maintain "Writing Efficient Python Code"
     - 20k+ students, 4 hours of content, 4.5/5 average course rating
   website: https://www.datacamp.com/courses/writing-efficient-python-code
 
@@ -57,6 +57,12 @@ experience:
     - Engineered automated natural language processing engine utilizing network analysis, graph theory, and TF-IDF methods
     - Deployed autonomous training pipeline for LSTM deep learning model using Databricks, AWS, TensorFlow, and Keras
     - Created optimization routine leveraging random forests, k-dimensional trees, and CVXPY
+
+- company: Columbia University School of Professional Studies
+  position: Applied Analytics Program Associate
+  location: Remote
+  timeperiod: Sep 2016 - Dec 2016
+  description: Course Facilitator - Applied Analytics in an Organizational Context
 
 - company: Nielsen
   position: Data Scientist
