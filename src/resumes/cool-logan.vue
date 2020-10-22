@@ -115,12 +115,11 @@
 
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
-                <i>{{ experience.company }}: {{ experience.location }}</i>
+                {{ experience.company }}: {{ experience.location }} | {{ experience.timeperiod }}
               </span>
 
-              <div class="section-content__subheader">{{ experience.description }}</div>
-              <div class="section-content__subheader">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">
+              <div class="section-content__subheader"><i>{{ experience.description }}</i></div>
+              <span class="section-content__plain">
                 <ul class="custom_indent">
                   <li v-for="(task) in experience.tasks">{{ task }}</li>
                 </ul>
@@ -142,9 +141,9 @@
               :class="{ link: education.website !== undefined}"
               :href="education.website">
 
-              <span class="section-content__header"> {{ education.school }} ({{ education.timeperiod }})</span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text--light"> {{ education.description }}</span>
+              <span class="section-content__header"> {{ education.school }} | {{ education.timeperiod }}</span>
+              <span class="contrib-text">{{ education.degree }}</span>
+              <span class="contrib-text"> {{ education.description }}</span>
             </a>
           </div>
         </div>
@@ -263,7 +262,7 @@ export default Vue.component(name, getVueOptions(name));
 
   &__employer {
     font-size: 12px;
-    font-style: italic;
+    // font-style: italic;
   }
 }
 
@@ -378,6 +377,7 @@ export default Vue.component(name, getVueOptions(name));
 .contrib-text {
   display: block;
   font-size: 12px;
+  font-weight: 300;
 }
 
 .section-content-grid {
@@ -411,6 +411,7 @@ export default Vue.component(name, getVueOptions(name));
 }
 
 ul.custom_indent {
+    margin-top: 2px;
     margin-left: 15px;
     margin-right: 0px;
     padding-left: 15px;

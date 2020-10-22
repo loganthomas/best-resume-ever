@@ -95,7 +95,7 @@ skills:
   level: 40
 - name: NumPy
   level: 75
-- name: Pandas
+- name: pandas
   level: 75
 - name: scikit-learn
   level: 75
