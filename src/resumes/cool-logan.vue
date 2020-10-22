@@ -58,7 +58,8 @@
           <div class="section-content section-content--plain">
             <a v-for="(award, index) in person.awards" class="grid-item">
               <span>{{ award.name }}<br/></span>
-              <span>{{ award.org }} | {{ award.timeperiod }}<br/><br/></span>
+              <span v-if="index==person.awards.length-1">{{ award.org }} | {{ award.timeperiod }}<br/></span>
+              <span v-else>{{ award.org }} | {{ award.timeperiod }}<br/><br/></span>
             </a>
           </div>
         </div>

@@ -58,8 +58,8 @@ experience:
     - Deployed autonomous training pipeline for LSTM deep learning model using Databricks, AWS, TensorFlow, and Keras
     - Created optimization routine leveraging random forests, k-dimensional trees, and CVXPY
 
-- company: Columbia University School of Professional Studies
-  position: Applied Analytics Program Associate
+- company: Columbia University
+  position: Applied Analytics Program Associate - School of Professional Studies
   location: Remote
   timeperiod: Sep 2016 - Dec 2016
   description: Course Facilitator - Applied Analytics in an Organizational Context
