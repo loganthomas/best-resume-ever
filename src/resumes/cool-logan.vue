@@ -22,7 +22,7 @@
             using <b>data science</b> & <b>machine learning</b> techniques.
             <br/>
             <br/>
-            I exhibit an analytical and detail-oriented nature, while placing strong value on building relationships.
+            I exhibit an analytical and detail-oriented nature while placing strong value on building relationships.
             {{ person.knowledge }}
           </div>
         </div>

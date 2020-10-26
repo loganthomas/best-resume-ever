@@ -5,7 +5,7 @@ name:
   last: Thomas
 about: I'm a highly motivated and naturally curious individual with 6 years of experience
        using data science & machine learning techniques. I exhibit an analytical and
-       detail-oriented nature, while placing strong value on building relationships.
+       detail-oriented nature while placing strong value on building relationships.
 position: Senior Associate Data Scientist I
 employer: Protection Engineering Consultants
 location: Austin, TX
@@ -28,13 +28,13 @@ experience:
   website: https://www.protection-consultants.com/
 
 - company: DataCamp
-  position: Course Instructor
+  position: Python Technical Curriculum Developer & Online Instructor
   timeperiod: Feb 2019 - Present
   location: Remote
   description:
   tasks:
     - Designed, created, and currently maintain "Writing Efficient Python Code"
-    - 20k+ students, 4 hours of content, 4.5/5 average course rating
+    - 20k+ students, 4.5/5 average course rating
   website: https://www.datacamp.com/courses/writing-efficient-python-code
 
 - company: Nielsen
@@ -62,7 +62,7 @@ experience:
   position: Applied Analytics Program Associate - School of Professional Studies
   location: Remote
   timeperiod: Sep 2016 - Dec 2016
-  description: Course Facilitator - Applied Analytics in an Organizational Context
+  description: Applied Analytics in an Organizational Context
 
 - company: Nielsen
   position: Data Scientist
