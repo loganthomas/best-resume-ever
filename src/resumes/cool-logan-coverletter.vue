@@ -41,31 +41,56 @@
       <div class="content__right">
         <span class="section-content__plain">
           <br/>
-          October 22, 2020
+          October 27, 2020
           <br/>
           <br/>
           Dear Hiring Manager,
           <br/>
           <br/>
-          I am writing to you out of interest for the position of Data Scientist.
+
+          I am writing to you out of interest for the position of Software Developer: Scientific Applications that I found
+          on the Enthought careers web-page.
+
           <br/>
           <br/>
-          I am writing to you out of interest for the position of Marketing Manager that I was told about by Penny Armstrong.
+
+          I have extensive work experience in the fields of project management, data science, and machine learning.
+          Through the <i>Emerging Leaders Program</i> at Nielsen, I was taught to spearhead new ideas, implement solutions based on
+          client needs, and deliver on key performance indicators. While serving as a Senior and Lead Data Scientist,
+          I was able to develop in-depth expertise with data mining, modeling, and artificial intelligence techniques.
+
           <br/>
           <br/>
-          I can offer you the skills and experience I’ve gained from three years as a Marketing Manager at Blue Skies Marketing Solutions.
+
+          Over the past year, I have served as a Senior Data Scientist at an engineering consultancy.
+          Being the first true data scientist hired at Protection Engineering Consultants, I have paved the way for the company
+          to break into the data science landscape. I have been an advocate for writing clean code that is version controlled and
+          unit tested. One of the first action steps I took after being hired was setting up an extensive continuous integration and
+          continuous delivery pipeline architecture for all internal projects. I also created a repository template to ensure consistent
+          project structure across all internal efforts and to remove the start-up barrier for non-technical users desiring to create
+          a new project repository.
+
           <br/>
           <br/>
-          My experience with brand management, interdepartmental marketing initiatives, and video marketing techniques
-          should make me ideal for the position. I will also bring to the table my experience managing a team of up to twenty people across different countries.
+
+          I enjoy teaching others and sharing my knowledge with those that are interesting in bolstering their data science skills.
+          I currently mentor three recent graduates and provide guidance on their journey to becoming data scientists.
+          My aptitude for collaborative software development can be displayed through my contributions on GitHub and the fact that
+          I serve as a core developer for the <i>pyjanitor</i> library.
+          I have also served as a Python Technical Curriculum Developer for DataCamp and currently maintain the <i>Writing Efficient Python Code</i>
+          course available on their online platform.
+
           <br/>
           <br/>
-          I understand that your new Marketing Manager is in charge of bringing Bloomingfields Marketing up to speed with
-          the digital era. I would love to discuss with you how video marketing and brand management would play into this strategy.
+
+          Through years of developing my data science and machine learning skill set, I have become passionate about software development
+          and coding best practices. If you are looking for a "scientist who codes", I am confident that I am a solid candidate for this role.
+
           <br/>
           <br/>
+
           Please find my resume attached if you’d like more details. I look forward to speaking with you during an interview.
-          Please feel free to contact me at 213-444-8576 anytime during the day. Otherwise, I will be in touch after a week. Thank you once again for your time and consideration.
+          Please feel free to contact me at 321-961-9107 anytime during the day. Thank you once again for your time and consideration.
           <br/>
           <br/>
           Respectfully yours,
