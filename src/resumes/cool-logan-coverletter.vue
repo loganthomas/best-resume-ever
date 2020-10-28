@@ -73,7 +73,7 @@
           <br/>
           <br/>
 
-          I enjoy teaching others and sharing my knowledge with those that are interesting in bolstering their data science skills.
+          I enjoy teaching others and sharing my knowledge with those that are interested in bolstering their data science skills.
           I currently mentor three recent graduates and provide guidance on their journey to becoming data scientists.
           My aptitude for collaborative software development can be displayed through my contributions on GitHub and the fact that
           I serve as a core developer for the <i>pyjanitor</i> library.
