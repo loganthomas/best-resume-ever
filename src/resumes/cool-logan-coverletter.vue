@@ -41,7 +41,7 @@
       <div class="content__right">
         <span class="section-content__plain">
           <br/>
-          October 27, 2020
+          November 13, 2020
           <br/>
           <br/>
           Dear Hiring Manager,
@@ -90,7 +90,7 @@
           <br/>
 
           Please find my resume attached if you’d like more details. I look forward to speaking with you during an interview.
-          Please feel free to contact me at 321-961-9107 anytime during the day. Thank you once again for your time and consideration.
+          Please feel free to contact me at (321) 961-9107 anytime during the day. Thank you once again for your time and consideration.
           <br/>
           <br/>
           Respectfully yours,
