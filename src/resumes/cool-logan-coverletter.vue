@@ -41,7 +41,7 @@
       <div class="content__right">
         <span class="section-content__plain">
           <br/>
-          November 13, 2020
+          November 14, 2020
           <br/>
           <br/>
           Dear Hiring Manager,
