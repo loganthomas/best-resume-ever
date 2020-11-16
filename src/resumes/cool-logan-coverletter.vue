@@ -41,15 +41,14 @@
       <div class="content__right">
         <span class="section-content__plain">
           <br/>
-          November 14, 2020
+          November 16, 2020
           <br/>
           <br/>
           Dear Hiring Manager,
           <br/>
           <br/>
 
-          I am writing to you out of interest for the position of Software Developer: Scientific Applications that I found
-          on the Enthought careers web-page.
+          I am writing to you out of interest for the position of Data Scientist that I found on the Arrive Logistics careers web-page.
 
           <br/>
           <br/>
@@ -57,7 +56,7 @@
           I have extensive work experience in the fields of project management, data science, and machine learning.
           Through the <i>Emerging Leaders Program</i> at Nielsen, I was taught to spearhead new ideas, implement solutions based on
           client needs, and deliver on key performance indicators. While serving as a Senior and Lead Data Scientist,
-          I was able to develop in-depth expertise with data mining, modeling, and artificial intelligence techniques.
+          I was able to develop in-depth expertise with data mining, predictive modeling, and artificial intelligence techniques.
 
           <br/>
           <br/>
@@ -83,19 +82,23 @@
           <br/>
           <br/>
 
-          Through years of developing my data science and machine learning skill set, I have become passionate about software development
-          and coding best practices. If you are looking for a "scientist who codes", I am confident that I am a solid candidate for this role.
+          I am excited about learning new things and constantly strive to put my best effort forward. Through years of developing my
+          data science and machine learning skill set, I have become passionate about software development and coding best practices.
+          Please find my resume attached if you’d like more details.
 
           <br/>
           <br/>
 
-          Please find my resume attached if you’d like more details. I look forward to speaking with you during an interview.
-          Please feel free to contact me at (321) 961-9107 anytime during the day. Thank you once again for your time and consideration.
+          I look forward to speaking with you during an interview.
+          Please feel free to contact me at<br/>(321) 961-9107 anytime during the day. Thank you once again for your time and consideration.
+
           <br/>
           <br/>
+
           Respectfully yours,
           <br/>
           Logan Thomas
+
         </span>
       </div>
     </div>
