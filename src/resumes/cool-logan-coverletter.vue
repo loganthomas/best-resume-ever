@@ -48,7 +48,7 @@
           <br/>
           <br/>
 
-          I am writing to you out of interest for the position of Data Scientist that I found on the Arrive Logistics careers web-page.
+          I am writing to you out of interest for the position of Software Engineer that I found on the Google Careers web-page.
 
           <br/>
           <br/>
